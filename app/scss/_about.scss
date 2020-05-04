@@ -1,0 +1,45 @@
+.about {
+    margin: 100px;
+}
+.about__wrapper {
+    display: flex;
+}
+.about__wrapper-photo {
+    width: 35%;
+}
+.about__wrapper-content {
+    width: 65%;
+}
+.about__wrapper-content-header {
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+}
+.about__wrapper-content-p {
+    margin-top: 30px;
+    p {
+        letter-spacing: 0.01em;
+        line-height: 180.3%;
+        font-size: 18px;
+    }
+}
+.about__wrapper-content-social {
+    margin-top: 15px;
+}
+.about__wrapper-content-social-header {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    line-height: 180.3%;
+}
+.about__wrapper-content-social-list {
+    margin-top: 12px;
+    padding-bottom: 30px;
+    ul {
+        li {
+            display: inline-block;
+            margin-right: 32px;
+        }
+    }
+}
